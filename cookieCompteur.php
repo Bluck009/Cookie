@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Page test cookie with git</h1>
+    <h1>Page test cookie with git test 1</h1>
 
     <h2>Cookie compteur test #1</h2>
     <?php

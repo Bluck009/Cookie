@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <h1>Page test cookie with git test 1</h1>
+    <h1>Page test cookie with git test 2</h1>
+    <H2>whatatow</H2>
 
     <h2>Cookie compteur test #1</h2>
     <?php
@@ -18,7 +19,7 @@
         setcookie('Salutation', $testCookie, time() + (60 * 60), null, null, false, false); // 1h
         echo 'Bienvenue pour votre première visite';
     }
-    else  {
+    else  { 
         $testCookie += $_COOKIE['Salutation'];
         setcookie('Salutation', $testCookie, time() + (60*60), null, null, false, false); // 1h
         echo 'le nombre de visite est : ' . $testCookie; 

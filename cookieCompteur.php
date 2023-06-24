@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1>Page test cookie with git test 2</h1>
-    <H2>whatatow</H2>
+    <h1>Page test cookie with git</h1>
+    
 
     <h2>Cookie compteur test #1</h2>
     <?php
